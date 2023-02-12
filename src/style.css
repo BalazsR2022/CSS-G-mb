@@ -1,0 +1,93 @@
+
+
+/*
+File: index.html
+Author: Balázs Réka
+Copyright: 2023, Balázs Réka
+Group: Szoft 1-2-E
+Date: 2023-02-03
+Github: https://github.com/BalazsR2022/Gombter
+*/
+ 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+
+
+ 
+.container {
+    width: 250px;
+    
+    padding: 6px;
+    margin: 30px;
+    text-shadow: 3px 3px 3px #222222;
+   
+}
+ 
+.container h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(235, 229, 233);
+    text-shadow: 3px 3px 3px #222222;
+  
+    
+}
+.container h2{
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgb(201, 211, 203);
+    text-shadow: 3px 3px 3px #222222;
+
+}
+
+div {
+    background: linear-gradient(rgb(0, 255, 13), rgb(1, 20, 1));
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #403f3f;
+    width: 25%;
+     
+}
+
+.form-control{
+
+    background-color: rgb(218, 247, 237);
+}
+
+button{
+  background: radial-gradient(rgb(0, 255, 13), rgb(1, 20, 1));
+  font-size: 15px;
+  border: #55555 solid 2px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+}
+
+button:hover {
+    color:black;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px black;
+}
+button:active {
+    transform: translateY(5px);
+   
+}
+
+img{
+    box-shadow: 10px 10px 5px #403f3f;
+    margin:35px;
+    width: 250px;
+    height: 130px;
+    border-radius: 5px;
+}
+img:hover{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+    
+    
+    
+}
+

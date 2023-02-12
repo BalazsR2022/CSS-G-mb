@@ -1,0 +1,61 @@
+<!--
+File: index.html
+Author: Balázs Réka
+Copyright: 2023, Balázs Réka
+Group: Szoft 1-2-E
+Date: 2023-02-03
+Github: https://github.com/BalazsR2022/Gombter
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gömb térfogat és felszín számítása</title>
+    <script src="gombter.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+</head>
+<body >
+  
+  
+    <img src="zold-gomb-hatterkep-38843.jpg" alt="gömb">    
+  
+  
+
+    <div id="title" class="container">     
+       <h1>A gömb térfogatának és felszínének számítása</h1>
+       <h2>Author: Balázs Réka Copyright: 2023, Balázs Réka
+            Group: Szoft 1-2-E Date: 2023-02-03</h2>
+      </div>  
+
+    <div id="atmero" class="container">  
+      <form name="atmerourlap">
+       
+       <h1>Gömb átmérője (cm)</h1>
+       <h2>Tizedesvessző helyett pontot használj!</h2>
+       <input type="text" placeholder="Ide írd a gömb átmérőjét!" class="form-control" id="megadottertek"><br>
+       
+      <button  type="button" class="btn-success" value="atmero"onclick="szamol()">Számol</button>
+      </form>
+      </div>  
+
+    <div id="eredmenyterfogat" class="container">     
+       <label for="gombterfogat">Gömb térfogata (cm<sup>3</sup>)</label>
+        <input class="form-control" id="gombterfogat">
+      </div>  
+     
+    <div id="eredmenyfelszin" class="container">      
+        <label for="gombfelszine">Gömb felszíne (cm<sup>2</sup>)</label>
+        <input class="form-control" id="gombfelszine">
+      </div>  
+  
+    
+    
+  
+</body>
+</html>
